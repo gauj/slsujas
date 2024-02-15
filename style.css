@@ -1,0 +1,157 @@
+<style type="text/css">
+	/* * CSS Selctor for all HTML Pages */
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		
+	}
+	
+	/* CSS for all HTML Pages */
+
+
+	body {
+		text-align: justify;
+		font-family: "Roboto", sans-serif;
+		margin: 0;
+		padding: 0;
+	}
+
+	h1 {
+		color: black;
+		font-weight: 900;
+		text-align: justify;
+	}
+
+	h2 {
+		color: darkblue;
+		text-align: center;
+	}
+
+	h3 {
+		color: navy;
+		text-align: center;
+	}
+
+	}
+	p {
+		color: blue;
+		text-align: justify;
+	}
+
+	#section1 {
+		color: red;
+		text-align: justify;
+	}
+
+	#section2 {
+		color: green;
+		text-align: justify;
+	}
+
+	#section3 {
+		color: orange;
+		text-align: justify;
+	}
+
+	#section4 {
+		color: yellow;
+		text-align: justify;
+	}
+
+	#section5 {
+		color: violet;
+		text-align: justify;
+	}
+
+	#section6 {
+		color: blue;
+		text-align: justify;
+	}
+
+	#sec1 article {
+		color: blue;
+		font-weight: bold;
+	}
+
+	#sec1 {
+		color: red;
+		font-weight: bold;
+	}
+
+	#sec2 article {
+		color: red;
+		font-weight: bold;
+	}
+
+	#sec2 {
+		color: orange;
+		font-weight: bold;
+	}
+
+	#sec3 li {
+		color: maroon;
+		font-weight: bold;
+	}
+
+	#context {
+		background-color: blue;
+	}
+
+	#box {
+		margin: 10px;
+		padding: 10px;
+		border: 5px solid black;
+		overflow: auto;
+		background-image: url('tk.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: green;
+	}	
+
+	#FloatElement {
+		background-color: #00FFFF;
+		position: relative;
+		top: 100px;
+	}
+
+	#FloatElement > p {
+		padding: 10px;
+		margin: 10px;
+		border: 1px solid black;
+	}
+
+	@media (min-width: 200px) {
+		#p1 {
+			width: 50px;
+			height: 50px;
+		}
+	}
+
+	#FloatElement > section {
+		clear: both;
+	}
+
+	#p1 {
+		background-color: #00AA00;
+	}
+
+	#p2 {
+		width: 50px;
+		height: 50px;
+		background-color: #00AABB;
+	}
+
+	#p3 {
+		width: 50px;
+		height: 50px;
+		background-color: #AABBCC;
+	}
+
+	#p4 {
+		width: 60px;
+		height: 60px;
+		background-color: #DEB887;
+	}
+
+</style>
