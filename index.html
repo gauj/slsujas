@@ -1,182 +1,101 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>My Coursera Site</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David Chu's China Bistro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
 <body>
-	<header>
-		<h1>I am here to learn HTML5 for my future self (A Coder). Cool.
-		</h1>
-		<nav>
-			This contains links to other parts of the page.
-		</nav>
-		<aside>This is an aside content</aside>
-		<h2>Learning Sections and Articles</h2>
-		<section id="sec1">
-			Section 1
-			<article>Article 1</article>
-			<article>Article 2</article>
-			<article>Article 3</article>
-			<div id="box">
-				<div id="context">Hello World. THis is greaat, can we work with tyhis</div></div>
-			<span>Work!</span>
-		</section>
-		<section id="sec2">
-			Section 2
-			<article>Article 4</article>
-			<article>Article 5</article>
-			<article>Article 6</article>
-		</section>	
-		<section id="sec3">
-			<h2>Learning Div</h2>
-			<h2>Learning Unordered and Ordered Lists</h2>
-			<div>This is an unordered list:
-				<ul>
-					<li>Milk</li>
-					<li>Bread</li>
-					<li>Cookies
-					<ul>
-						<li>Choco</li>
-						<li>Sugar</li>
-						<li>Flour</li>
-					</ul>
-					<li>Pasta</li>
-					</li>
-				</ul>
-			</div> 
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
 
-			<div>This is an ordered list:
-				<ol>
-					<li>Milk</li>
-					<li>Bread</li>
-					<li>Cookies
-					<ol>
-						<li>Choco</li>
-						<li>Sugar</li>
-						<li>Flour</li>
-					</ol>
-					<li>Pasta and Pennes</li>
-					</li>
-				</ol>
-			</div>
-		</section>
-		<h2>Learning Intenal Links</h2>
-		<section>This section is to understand hyperlinking files in the same folder.
-			<a href="reference.html" title="Linked HTML Page from Index Page">Linking HTML File in the same directory
-			</a>
-			<a href="reference.html" title="DIV Linked HTML Page from Index Page">
-				<div>DIV Linking HTML File in the same directory</div>
-			</a>
-			<p>
-				Linking an external page to Index:
-				<a href="https://www.tagkaro.com" target="_blank" title="Link to Tagkaro.com">Click to Tagkaro</a>
-			</p>
-		</section>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>David Chu's China Bistro</h1></a>
+            <p>
+              <img src="images/star-k-logo.png" alt="Kosher certification">
+              <span>Kosher Certified</span>
+            </p>
+          </div>
 
-		<h2>Learning Section in the same Page </h2>
-		<section>
-			<ul>
-				<!-- Link to any section in the page -->
-				<li><a href="#section1">#Section1</a></li>
-				<li><a href="#section2">#Section2</a></li>
-				<li><a href="#section3">#Section3</a></li>
-				<li><a href="#section4">#Section4</a></li>
-				<li><a href="#section5">#Section5</a></li>
-				<li><a href="#section6">#Section6</a></li>
-			</ul>
-		</section>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
 
-		<section id="section1">
-			<h3>Section 1: #1</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-		</section>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:410-602-5008">
+                <span>410-602-5008</span></a><div>* We Deliver</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
 
-		<section id="section2">
-			<h3>Section 2: #2</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-		</section>
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:410-602-5008">
+    <span class="glyphicon glyphicon-earphone"></span>
+    410-602-5008
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
 
-		<section id="section3">
-			<h3>Section 3: #3</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-		</section>
+  <div id="main-content" class="container">
+    <div class="jumbotron">
+      <img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
+    </div>
 
-		<section id="section4">
-			<h3>Section 4: #4</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-		</section>
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="menu-categories.html"><div id="menu-tile"><span>menu</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="single-category.html"><div id="specials-tile"><span>specials</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://www.google.com/maps/place/David+Chu's+China+Bistro/@39.3635874,-76.7138622,17z/data=!4m6!1m3!3m2!1s0x89c81a14e7817803:0xab20a0e99daa17ea!2sDavid+Chu's+China+Bistro!3m1!1s0x89c81a14e7817803:0xab20a0e99daa17ea" target="_blank">
+          <div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.675372390488!2d-76.71386218529199!3d39.3635874269356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81a14e7817803%3A0xab20a0e99daa17ea!2sDavid+Chu&#39;s+China+Bistro!5e0!3m2!1sen!2sus!4v1452824864156" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <span>map</span>
+          </div>
 
-		<section id="section5">
-			<h3>Section 5: #5</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Connect
-			</p>
-		</section>
+        </a>
+      </div>
+    </div>
 
-		<section id="section6">
-			<h3>Section 6: #6</h3>
-			<p id="Para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-		</section>
-	</header>
-
-<h2>Display an Image</h2>
-<p>
-<img src="tk.png" width="400" height="80" alt="Copyright Tagkaro"><div>This image is about Tagkaro Copyright.</div>
-</p>
-<h2>This is heading H2</h2>
-<h3>This is heading H3</h3>
-<h4>This is heading H4</h4>
-<h5>This is heading H5</h5>
-<H6>This is heading H6</H6>
+  </div>
 
 
-<h2>Float Elements</h2>
-<div id="FloatElement">
-	<p id="p1">1</p>
-	<p id="p2">2</p>
-	<p id="p3">3</p>
-	<p id="p4">4</p>
-	<section>This is the section to learn FLOAT.</section>
-</div>
-
-
-<p><a href="#top">Back to Top</a></p>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
